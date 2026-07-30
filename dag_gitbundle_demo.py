@@ -12,7 +12,7 @@ from datetime import datetime
 from airflow.sdk import DAG
 from airflow.providers.standard.operators.python import PythonOperator
 
-MARKER = "demo-v1"
+MARKER = "demo-v2"
 
 
 def report(step: str) -> None:
